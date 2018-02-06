@@ -1,7 +1,7 @@
 # Portafolio
 ***
 ## Elección de Colores
-![Elección de colores](https://prnt.sc/ianijo "none")
+![Elección de colores](https://image.prntscr.com/image/lkLFYQkCQd2eJfy4wlGK_A.jpg)
 
 ***
 
