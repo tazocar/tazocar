@@ -4,92 +4,180 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>Tanko</title>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="src/css/materialize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="src/css/main.css">
 </head>
 <body>
   <section>
-    <div class="row" id="startSection">
-      <div class="col s12">
-          <h2>Hola!, soy Tanko</h2>
-          <h3>Desarrolladora Front-End</h3>
+    <div class="row scroll" id="startSection">
+      <div class="col-12 mx-auto my-auto text-center">
+          <h2>Hola</h2>
+          <h2>¡soy Tanko!</h2>
+          <h2>Desarrolladora Front-End</h2>
+          <a class="btn btn-outline-info btnScroll" href="#navbar">Más</a>
       </div>
     </div>
   </section>
-  <nav>
-    <div class="nav-wrapper">
-      <div class="container">
-        <a href="#!" class="brand-logo">Logo</a>
-        <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="">Tanko</a></li>
-          <li><a href="">Habilidades</a></li>
-          <li><a href="">Portafolio</a></li>
-          <li><a href="">Contacto</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile">
-          <li><a href="">Tanko</a></li>
-          <li><a href="">Habilidades</a></li>
-          <li><a href="">Portafolio</a></li>
-          <li><a href="">Contacto</a></li>
-        </ul>
-      </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky" id="navbar">
+    <a class="navbar-brand btnScroll" href="#startSection">Tanko</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMobile" aria-controls="navMobile" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMobile">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link btnScroll" href="#about">Sobre Mi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btnScroll" href="#skills">Habilidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btnScroll" href="#portfolio">Portafolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btnScroll" href="#contact">Contacto</a>
+        </li>
+      </ul>
     </div>
   </nav>
   <section>
-    <div class="row" id="about">
-      <div class="col s12">
-        <h2>Tanko</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ipsa, blanditiis placeat eum, distinctio excepturi dolore, quas alias eius dignissimos, aliquid optio. Cum perferendis quasi porro voluptatem voluptates adipisci quos!</p>
-        <img src="https://www.zoo-berlin.de/fileadmin/_processed_/4/4/csm_Meng_Meng_Baby_1_88cad0f74f.jpg" alt="">
-        <h3>Habilidades blandas</h3>
+    <div class="row scroll" id="about">
+      <div class="col-12 text-center">
+        <h2>Soy..</h2>
+        <p>una Desarrolladora Front-End orientada a la metodología ágil, con experiencia en Javascript y facilidades para aprender e implementar librerías del mismo. Cuento con un ámplio conocimiento de HTML5, CSS3, Bootstrap, Materialize y API’s.
+        Estoy familiarizada con herramientas de diseño, tales como Photoshop e Illustrator.
+        Destaco por mi capacidad de análisis, búsqueda de soluciones y trabajo en equipo, para así obtener mejores resultados.
+        </p>
+<!--         <h3>Habilidades blandas</h3>
         <div class="row">
-          <div class="col s3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, debitis!</div>
-          <div class="col s3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, sapiente.</div>
-          <div class="col s3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, sequi!</div>
-          <div class="col s3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, blanditiis!</div>
+          <div class="col-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, debitis!</p>
+          </div>
+          <div class="col-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, sapiente.</p>
+          </div>
+          <div class="col-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, sequi!</p>
+          </div>
+          <div class="col-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, blanditiis!</p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="row scroll" id="skills">
+      <div class="col-12">
+        <h2 class="">Habilidades</h2>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <img src="src/images/js.png" alt="">
+            <h4>Javascript</h4>
+            <p>Desarrollo de funciones orientadas a la creación de aplicaciones interactivas, manejo de DOM y lectura de API's</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <img src="src/images/react.png" alt="">
+            <h4>React</h4>
+            <p>Desarrollo de SPA, componentes interactivos y reutilizables. Agiliza el proceso de renderización de cambios.</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <img src="src/images/git_logo.png" alt="">
+            <h4>Git</h4>
+            <p>Control de versiones, mejoras en el trabajo en equipo, gestión de ramas, actualización, edición, merge y borrado de commits.</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <img src="src/images/npm2.png" alt="">
+            <h4>NPM</h4>
+            <p>Actualización y descarga de librerías, administración de dependencias. Agiliza el proceso de desarrollo y producción. </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <img src="src/images/css3.png" alt="">
+            <h4>CSS</h4>
+            <p>Manejo de estilos, creación de animaciónes, transiciónes y grillas que mejoran la interactividad y funcionamiento de la aplicación</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <img src="src/images/html2.png" alt="">
+            <h4>HTML</h4>
+            <p>Manejo de etiquetas, estructura y atributos. Capacitada para desarrollar maquetas HTML en conjunto con CSS y JS.</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <img src="src/images/bootstrap.png" alt="">
+            <h4>Bootstrap</h4>
+            <p>Manejo de grilla, maquetación y creación de material responsivo.</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <img src="src/images/materialize.png" alt="">
+            <h4>Materialize</h4>
+            <p>Manejo de grilla, maquetación y creación de material responsivo.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <img src="src/images/sass2.png" alt="">
+            <h4>Sass</h4>
+            <p>Agilizar el proceso de diseño y crear variables reutilizables, lo que aumenta la eficiencia del proceso de desarrollo.</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <img src="src/images/ai.png" alt="">
+            <h4>Illustrator</h4>
+            <p>Herramienta de diseño que ayuda en la creación de maquetas y diseños que luego pueden ser implementados en la aplicación.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <section>
-    <div class="row" id="skills">
-      <div class="col s12">
-        <h2>Habilidades</h2>
-      </div>
-      <div class="row">
-        <div class="col s4">
-          Nombre Habilidad
+    <div class="row scroll" id="portfolio">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center">Portafolio</h2>
+          </div>
         </div>
-        <div class="col s4">
-          Nombre Habilidad
+        <div class="row">
+          <div class="col-12">
+            <div class="portfolioContainer">
+              <hr class="botLine" />
+              <ul>
+                <li class="one"><a id="showAll">Todos</a></li>
+                <li class="two"><a id="showJs">Javascript</a></li>
+                <li class="three"><a id="showNode">NodeJS</a></li>
+                <!-- <li class="four"><a id="showOther">Otros</a></li>  -->
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="col s4">
-          Nombre Habilidad
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s4">
-          Nombre Habilidad
-        </div>
-        <div class="col s4">
-          Nombre Habilidad
-        </div>
-        <div class="col s4">
-          Nombre Habilidad
+        <div class="row">
+          <div class="col-8 offset-2 results">
+            
+          </div>
         </div>
       </div>
     </div>
   </section>
   <section>
-    <div class="row" id="portfolio"></div>
+    <div class="row scroll" id="contact">
+      <div class="col-12">
+        <h2 class="">Contacto</h2>
+      </div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, amet similique sequi et ut dolorem ex libero officia facere suscipit odit numquam hic consectetur, corporis itaque ipsam reiciendis, voluptatem necessitatibus voluptatum consequuntur ad asperiores? Consectetur repellendus rerum fuga eligendi nostrum iste accusamus laborum quia qui unde, vitae neque hic dicta enim temporibus, tempora odit accusantium sequi veniam deleniti distinctio inventore perspiciatis optio laboriosam. Natus dolor facere labore aliquid voluptas asperiores iste, animi assumenda, eveniet excepturi laudantium dolorum velit expedita. Vel doloribus quaerat explicabo earum magnam perspiciatis dolores, molestiae ratione! Officia adipisci illum ipsa architecto ratione incidunt molestias quaerat similique consectetur, quo asperiores enim recusandae odit vero provident sint. 
+    </div>
   </section>
-  <section>
-    <div class="row" id="contact"></div>
-  </section>
+  <footer>
+    <div class="row align-self-end">
+      <div class="col-12">
+        <p>Hola soy un footer</p>
+      </div>
+    </div>
+  </footer>
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="src/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="src/js/jquery.scrollify.js"></script>
+  <script src="src/js/app.js"></script>
 </body>
 </html>
