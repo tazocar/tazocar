@@ -57,3 +57,12 @@ $('#showNode').on('click', function() {
 //   $('.botLine').css('margin-left', '75%');
 // });
 
+
+// Esconder collapse nav al click
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+
+particlesJS.load('startSection', 'src/data/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});

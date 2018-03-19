@@ -1,13 +1,29 @@
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 .row{
   margin: 0;
 }
 #startSection{
   height: 100vh;
-  background-color: pink;
-  /*display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;*/
+  background-color: #1b242f;
+}
+.startWelcome{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  color: #FFF;
+}
+h2{
+  font-weight: 700;
+  font-size: 2.5em;
+}
+.text-highlight{
+  color: #04c2c9;
+}
+.knowMe{
+  margin-top: 3em;
 }
 #about{
   padding: 10em 0;
