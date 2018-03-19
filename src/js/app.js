@@ -16,8 +16,13 @@ $(function() {
   });
 });
 
+// Partículas del inicio
+particlesJS.load('startSection', 'src/data/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+
 // Sticky Nav Bar
-var stickyTop = $(".navbar").offset().top -1;
+var stickyTop = $(".navbar").offset().top -2;
 //whenever the user scrolls, measure how far we have scrolled
 $(window).scroll(function() {
   var windowTop = $(window).scrollTop();
@@ -61,10 +66,6 @@ $('#showNode').on('click', function() {
 // Esconder collapse nav al click
 $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
-});
-
-particlesJS.load('startSection', 'src/data/particles.json', function() {
-  console.log('callback - particles.js config loaded');
 });
 
 // Hover on ."conocer" button
