@@ -66,3 +66,11 @@ $('.navbar-nav>li>a').on('click', function(){
 particlesJS.load('startSection', 'src/data/particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
+
+// Hover on ."conocer" button
+$('.know-me-btn').mouseenter(function(){
+  $('.fa-angle-right').css('transform', 'rotate(90deg)');
+})
+$('.know-me-btn').mouseleave(function(){
+  $('.fa-angle-right').css('transform', 'rotate(0deg)');
+})

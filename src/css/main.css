@@ -22,8 +22,19 @@ h2{
 .text-highlight{
   color: #04c2c9;
 }
-.knowMe{
+.know-me-btn{
   margin-top: 3em;
+  font-weight: bolder;
+}
+.fa-angle-right{
+  vertical-align: -3px;
+  font-size: 1.4em;
+  margin-left: 0.3em;
+  transition: transform ease 1s; 
+}
+.navbar-brand{
+  font-size: 1.5em;
+  font-weight: 700;
 }
 #about{
   padding: 10em 0;
@@ -32,6 +43,7 @@ h2{
   text-align: center;
   justify-content: center;*/
   background-color: lightblue;
+  font-size: 1.2em;
 }
 #skills{
   padding-top: 4em;
