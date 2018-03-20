@@ -22,6 +22,8 @@ h2{
 .section-title{
   margin-bottom: 1em;
   color: #1b242f;
+  text-decoration: underline;
+  text-decoration-color: #e31b6d;
 }
 .text-highlight{
   color: #04c2c9;
@@ -44,6 +46,7 @@ h2{
   padding: 5em 0 10em 0;
   min-height: 100vh;
   color: #1b242f;
+  background-color: #F9F7F6;
 }
 #about p{
   font-size: 1.2em
@@ -56,28 +59,52 @@ h2{
   margin: 2em;
 }
 #skills{
-  padding-top: 4em;
+  padding: 4em 0 1em 0;
   min-height: 100vh;
+  background-color: #EFEFEE;
 }
 #portfolio{
-  padding-top: 4em;
+  padding: 4em 0 3em 0;
   min-height: 100vh;
-  background-color: lightgreen;
+  background-color: #EFEFEE;
 }
 .no-padding {
   padding: 0;
 }
 #contact{
-  padding-top: 4em;
-  height: 90vh;
-  background-color: lightgrey;
+  padding: 29vh;
+  background-color: #DBDEDE;
+}
+#contact i{
+  font-size: 3em;
+  margin: 0.3em;
+}
+#contact a:link {
+  color: #1b242f;
+}
+#contact a:visited {
+  color: #1b242f;
+}
+#contact a:hover {
+  color: #037C80;
+}
+#contact a:active {
+  color: #037C80;
+}
+#contact p{
+  font-size: 1.5em;
+  margin: 0;
 }
 .btn{
   transition: ease all 1s;
 }
 footer{
-  height: 10vh;
-  background-color: grey;
+  padding: 3vh;
+  background-color: #1b242f;
+}
+footer p{
+  margin: 0;
+  color: #FFF;
 }
 .sticky {
   transition: all .2s ease-in-out;
@@ -104,7 +131,6 @@ footer{
   color: #1b242f;
 }
 .sticky.navbar-light .navbar-nav .nav-link:hover{
-/*   color: #e31b6d; */
   font-weight: 700;
 }
 .stuck.navbar-light .navbar-nav .nav-link{
@@ -115,44 +141,6 @@ footer{
 }
 .stuck i.fas.fa-bars {
   color: #FFF;
-}
-.portfolioContainer {
-  width: 68%;
-  margin: 3em auto 0;
-  position: relative;
-  height: 3em;
-}
-.portfolioContainer ul{
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  width: 100%;
-}
-.portfolioContainer ul li {
-  display: inline-block;
-  text-align: center;
-  width: 33%;
-  padding: .75rem 0;
-}
-.portfolioContainer ul li a {
-  margin: 0;
-  text-decoration: none;
-  color: #333;
-  cursor: pointer;
-}
-.portfolioContainer hr {
-  height: 3em;
-  width: 33%;
-  margin: 0;
-  background: tomato;
-  border: none;
-  transition: 0.5s ease-in-out;
-  position: absolute;
-  top: 0;
-}
-.results{
-  height: 50vh;
-  background-color: pink;
 }
 .hover-underline {
   display: inline-block;
@@ -276,4 +264,20 @@ figcaption.bootstrap-ico-position{
   font-weight: 700;
   font-size: 1.2em;
   display: block;
+}
+.divisor-one{
+  height: 0.5em;
+  margin-top: 10%;
+  /*background-color: #e31b6d;*/
+  background-image: url('https://i.pinimg.com/originals/fa/0d/b5/fa0db5baa9ea2b44b1e5695c12b216c1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+.icon-links i{
+  margin: 0.5em;
+  display: inline;
+  float: right;
+}
+.fas.fa-heart{
+  color: #e31b6d;
 }

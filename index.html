@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
   <!-- DevIcons -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="src/css/set1.css">
   <!-- Main stylesheet -->
   <link rel="stylesheet" href="src/css/main.css">
 </head>
@@ -49,12 +50,13 @@
   <section>
     <div class="row scroll" id="about">
       <div class="col-sm-12 col-md-6 offset-md-3 col-lg-4 col-xl-4 offset-lg-4 text-center">
-        <h2 class="text-uppercase section-title">Sobre mi</h2>
+        <h2 class="text-uppercase section-title">Tanko Azócar</h2>
         <div class="my-img mx-auto"></div>
         <p>Soy una Desarrolladora Front-End orientada a la metodología ágil, con experiencia en Javascript y facilidades para aprender e implementar librerías del mismo. Cuento con un ámplio conocimiento de HTML5, CSS3, Bootstrap, Materialize y API’s.
         Estoy familiarizada con herramientas de diseño, tales como Photoshop e Illustrator.
         Destaco por mi capacidad de análisis, búsqueda de soluciones y trabajo en equipo, para así obtener mejores resultados.
         </p>
+        <div class="divisor-one"></div>
       </div>
     </div>
   </section>
@@ -140,25 +142,63 @@
       <div class="col-12">
         <div class="row">
           <div class="col-12">
-            <h2 class="text-center">Portafolio</h2>
+            <h2 class="text-center text-uppercase section-title">Portafolio</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-12">
-            <div class="portfolioContainer">
-              <hr class="botLine" />
-              <ul>
-                <li class="one"><a id="showAll">Todos</a></li>
-                <li class="two"><a id="showJs">Javascript</a></li>
-                <li class="three"><a id="showNode">NodeJS</a></li>
-                <!-- <li class="four"><a id="showOther">Otros</a></li>  -->
-              </ul>
+            <div class="portfolio-hover">
+              <figure class="effect-zoe">
+                <img src="src/images/foodies.jpg" alt=""/>
+                <figcaption>
+                  <h3>Foodies <span>App</span></h3>
+                  <p class="icon-links">
+                    <a href="https://fathomless-retreat-74717.herokuapp.com/" target="_blank"><i class="fas fa-play"></i></a>
+                    <a href="https://github.com/tazocar/foodmap-react" target="_blank"><i class="fab fa-github"></i></a>
+                  </p>
+                  <p class="description">Informar sobre restaurantes más cercanos a travez de una aplicación web responsive de uso intuitiva.</p>
+                </figcaption>     
+              </figure>
+              <figure class="effect-zoe">
+                <img src="src/images/cineapp.jpg" alt=""/>
+                <figcaption>
+                  <h3><span>Hey! </span>Qué-Vemos</h3>
+                  <p class="icon-links">
+                    <a href="https://lexisr.github.io/HeyQueVemos/" target="_blank"><i class="fas fa-play"></i></a>
+                    <a href="https://github.com/LexisR/HeyQueVemos" target="_blank"><i class="fab fa-github"></i></a>
+                  </p>
+                  <p class="description">Aplicación web para amántes de compartir experiencias y películas con los amigos.</p>
+                </figcaption>     
+              </figure>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-8 offset-2 results">
-            
+          <div class="col-12">
+            <div class="portfolio-hover">
+              <figure class="effect-zoe">
+                <img src="src/images/trivia.jpg" alt=""/>
+                <figcaption>
+                  <h3>Trivia<span>Toria</span></h3>
+                  <p class="icon-links">
+                    <a href="https://roxanacs.github.io/trivia/" target="_blank"><i class="fas fa-play"></i></a>
+                    <a href="https://github.com/tazocar/trivia" target="_blank"><i class="fab fa-github"></i></a>
+                  </p>
+                  <p class="description">¿Aburrido? Intenta responder estas divertidas trivias.</p>
+                </figcaption>     
+              </figure>
+              <figure class="effect-zoe">
+                <img src="src/images/geobike.jpg" alt=""/>
+                <figcaption>
+                  <h3>Geo<span>Bike</span></h3>
+                  <p class="icon-links">
+                    <a href="https://tazocar.github.io/easy-vreco/" target="_blank"><i class="fas fa-play"></i></a>
+                    <a href="https://github.com/tazocar/easy-vreco" target="_blank"><i class="fab fa-github"></i></a>
+                  </p>
+                  <p class="description">Revisa aquí las rutas que puedes seguir al andar en bicicleta.</p>
+                </figcaption>     
+              </figure>
+            </div>
           </div>
         </div>
       </div>
@@ -166,16 +206,20 @@
   </section>
   <section>
     <div class="row scroll" id="contact">
-      <div class="col-12">
-        <h2 class="">Contacto</h2>
+      <div class="col-12 text-center ">
+        <h2 class="text-uppercase section-title">Contacto</h2>
+
+        <p>Estoy disponible en:</p>
+        <a href="mailto:tankodani@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/tanko-daniela-az%C3%B3car-b2112191/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/tazocar" target="_blank"><i class="fab fa-github-square"></i></a>
       </div>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, amet similique sequi et ut dolorem ex libero officia facere suscipit odit numquam hic consectetur, corporis itaque ipsam reiciendis, voluptatem necessitatibus voluptatum consequuntur ad asperiores? Consectetur repellendus rerum fuga eligendi nostrum iste accusamus laborum quia qui unde, vitae neque hic dicta enim temporibus, tempora odit accusantium sequi veniam deleniti distinctio inventore perspiciatis optio laboriosam. Natus dolor facere labore aliquid voluptas asperiores iste, animi assumenda, eveniet excepturi laudantium dolorum velit expedita. Vel doloribus quaerat explicabo earum magnam perspiciatis dolores, molestiae ratione! Officia adipisci illum ipsa architecto ratione incidunt molestias quaerat similique consectetur, quo asperiores enim recusandae odit vero provident sint. 
     </div>
   </section>
   <footer>
     <div class="row align-self-end">
-      <div class="col-12">
-        <p>Hola soy un footer</p>
+      <div class="col-12 text-center">
+        <p>Hecho con <i class="fas fa-heart"></i> por Tanko</p>
       </div>
     </div>
   </footer>

@@ -35,34 +35,6 @@ $(window).scroll(function() {
   }
 });
 
-// // Scroll effect with scrollify // Fix This
-// $(function() {
-//   $.scrollify({
-//     section : ".scroll",
-//   });
-// });
-
-// Background Movement on menu
-$('#showAll').on('click', function() {
-  $('.botLine').css('margin-left', 0);
-  // Aqui cambiar los resultados a mostrar
-  $('.results').css('background-color', 'pink')
-});
-$('#showJs').on('click', function() {
-  $('.botLine').css('margin-left', '33.04%');
-  // Aqui cambiar los resultados a mostrar
-  $('.results').css('background-color', 'blue')
-});
-$('#showNode').on('click', function() {
-  $('.botLine').css('margin-left', '66.95%');
-  // Aqui cambiar los resultados a mostrar
-  $('.results').css('background-color', 'grey')
-});
-// $('#showOther').on('click', function() {
-//   $('.botLine').css('margin-left', '75%');
-// });
-
-
 // Esconder collapse nav al click
 $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
