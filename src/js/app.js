@@ -76,6 +76,3 @@ $('.know-me-btn').mouseleave(function(){
   $('.fa-angle-right').css('transform', 'rotate(0deg)');
 })
 
-$('.btnMenu').click(function() {
-  $(this).toggleClass('on');
-});

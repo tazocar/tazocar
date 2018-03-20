@@ -19,6 +19,10 @@ h2{
   font-weight: 700;
   font-size: 2.5em;
 }
+.section-title{
+  margin-bottom: 1em;
+  color: #1b242f;
+}
 .text-highlight{
   color: #04c2c9;
 }
@@ -40,7 +44,9 @@ h2{
   padding: 5em 0 10em 0;
   min-height: 100vh;
   color: #1b242f;
-  font-size: 1.2em;
+}
+#about p{
+  font-size: 1.2em
 }
 .my-img{
   width: 50%;
@@ -52,12 +58,14 @@ h2{
 #skills{
   padding-top: 4em;
   min-height: 100vh;
-  background-color: pink;
 }
 #portfolio{
   padding-top: 4em;
   min-height: 100vh;
   background-color: lightgreen;
+}
+.no-padding {
+  padding: 0;
 }
 #contact{
   padding-top: 4em;
@@ -170,4 +178,102 @@ footer{
   left: 0;
   width: 100%;
   opacity: 1;
+}
+.bcolor-4BA1AA{
+  background-color: #4BA1AA;
+}
+.bcolor-E25353{
+  background-color: #E25353;
+}
+.bcolor-444B54{
+  background-color: #444B54;
+}
+.bcolor-607DA0{
+  background-color: #607DA0;
+}
+.bcolor-E28353{
+  background-color: #E28353;
+}
+.bcolor-525A7F{
+  background-color: #525A7F;
+}
+.bcolor-5EB9B3{
+  background-color: #5EB9B3;
+}
+.bcolor-6496C1{
+  background-color: #6496C1;
+}
+figure.snip1084 {
+  color: #fff;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 220px;
+  text-align: center;
+  transition: background-color ease 0.5s;
+  cursor: pointer;
+}
+figure.snip1084:hover{
+  background: #1b242f;
+}
+
+figure.snip1084 * {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+figure.snip1084 figcaption {
+  top: 50%;
+  left: 40px;
+  right: 40px;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+figure.snip1084 figcaption h2 {
+  position: relative;
+  font-weight: 300;
+  margin: 0;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+  font-size: 4em;
+  line-height: 1.8em;
+}
+figure.snip1084 figcaption p {
+  font-size: 1em;
+  opacity: 0;
+  margin: 0;
+}
+figure.snip1084.size {
+  width: 50%;
+  padding: 50%;
+  margin: 0;
+}
+figure.snip1084:hover figcaption h2,
+figure.snip1084.hover figcaption h2,
+figure.snip1084:hover figcaption p,
+figure.snip1084.hover figcaption p {
+  opacity: 1;
+  border-color: rgba(255, 255, 255, 0.5);
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+figure.snip1084:hover figcaption p,
+figure.snip1084.hover figcaption p {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+figcaption.bootstrap-ico-position{
+  top: 43% !important;
+}
+.small-skill-title{
+  font-weight: 700;
+  font-size: 1.2em;
+  display: block;
 }
