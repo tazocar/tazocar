@@ -72,7 +72,7 @@ h2{
   padding: 0;
 }
 #contact{
-  padding: 29vh;
+  padding: 29vh 0;
   background-color: #DBDEDE;
 }
 #contact i{
