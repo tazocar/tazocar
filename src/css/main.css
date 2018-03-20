@@ -30,24 +30,28 @@ h2{
   vertical-align: -3px;
   font-size: 1.4em;
   margin-left: 0.3em;
-  transition: transform ease 1s; 
+  transition: transform ease 0.5s; 
 }
 .navbar-brand{
   font-size: 1.5em;
   font-weight: 700;
 }
 #about{
-  padding: 10em 0;
+  padding: 5em 0 10em 0;
   min-height: 100vh;
   color: #1b242f;
   font-size: 1.2em;
 }
+.my-img{
+  width: 50%;
+  padding:25%;
+  background-color: #1b242f;
+  border-radius: 50%;
+  margin: 2em;
+}
 #skills{
   padding-top: 4em;
   min-height: 100vh;
-  /*display: flex;
-  text-align: center;
-  justify-content: center;*/
   background-color: pink;
 }
 #portfolio{
@@ -70,18 +74,39 @@ footer{
 .sticky {
   transition: all .2s ease-in-out;
   position: static;
-  background-color: #222;
   padding: 2.5vh 5vw;
   z-index: 1;
+  background-color: #FFF;
+  letter-spacing: 0.1em;
 }
 .stuck {
   position: fixed;
   top: 0;
-  color: black;
   padding: 0.5vh 5vw;
   min-height: 0;
   width: 100%;
-  border-bottom: 0.3em solid #1b242f;
+  background-color: #1b242f;
+  outline: 0.4em solid #FFF;
+  letter-spacing: 0.1em;
+}
+.sticky.navbar-light .navbar-nav .nav-link{
+  color: #1b242f;
+}
+.sticky.navbar-light .navbar-brand {
+  color: #1b242f;
+}
+.sticky.navbar-light .navbar-nav .nav-link:hover{
+/*   color: #e31b6d; */
+  font-weight: 700;
+}
+.stuck.navbar-light .navbar-nav .nav-link{
+  color: #FFF;
+}
+.stuck.navbar-light .navbar-brand {
+  color: #04c2c9;
+}
+.stuck i.fas.fa-bars {
+  color: #FFF;
 }
 .portfolioContainer {
   width: 68%;
@@ -120,4 +145,29 @@ footer{
 .results{
   height: 50vh;
   background-color: pink;
+}
+.hover-underline {
+  display: inline-block;
+  user-select: none;
+  position: relative;
+  text-transform: uppercase;
+  color: #333;
+  padding: 0.5em 0;
+  text-decoration: none;
+}
+.hover-underline::after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 0.2em;
+  opacity: 0;
+  background: #04c2c9;
+  transition: all 400ms cubic-bezier(0.4, 1.6, 0.15, 0.9);
+}
+.hover-underline:hover::after{
+  left: 0;
+  width: 100%;
+  opacity: 1;
 }
