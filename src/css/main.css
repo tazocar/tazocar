@@ -279,6 +279,9 @@ figcaption.bootstrap-ico-position{
   display: inline;
   float: right;
 }
+.download-cv-box{
+  display: block;
+}
 .fas.fa-heart{
   color: #e31b6d;
 }
